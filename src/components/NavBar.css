@@ -1,0 +1,19 @@
+.fondo{
+    background-color: #19191a;
+}
+.titulo{
+    color:  #ffa8d9;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+}
+.nav-item{
+    font-weight: bold;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+  }
+.nav-link{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+  }

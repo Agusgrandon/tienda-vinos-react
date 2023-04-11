@@ -1,19 +1,26 @@
 .fondo{
-    background-color: #19191a;
+    background-color: #272727;
 }
+.vinos{
+  color: #f252a7;
+  text-align: center;
+  font-family: 'Rock Salt', cursive;
+  font-size: 30px;
+}
+
 .titulo{
-    color:  #ffa8d9;
+    color:#e5097f;
     text-align: center;
     font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 80px;
+    font-family: 'Rock Salt', cursive;
+    font-size: 70px;
 }
 .nav-item{
     font-weight: bold;
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
+    color: #dcdcdc;
+    font-family: 'Rock Salt', cursive;
   }
 .nav-link{
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
+    color: #dcdcdc;
+    font-family: 'Rock Salt', cursive;
   }

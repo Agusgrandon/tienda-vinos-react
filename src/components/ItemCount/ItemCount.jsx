@@ -19,13 +19,13 @@ useEffect(() =>{
 
     return (
         <div className="counter">
-            <button disabled={count <= 1} onClick={decrease}>-</button>
-            <span>{count}</span>
-            <button disabled={count >= stock} onClick={increase}>+</button>
-            <div>
-            <button disabled={stock <= 0} onClick={() => onAdd(count)}>Agregar al carrito</button>
-            </div>
+        <button disabled={count <= 1} onClick={decrease}>-</button>
+        <span>{count}</span>
+        <button disabled={count >= stock} onClick={increase}>+</button>
+        <div>
+        <button disabled={stock <= 0} onClick={() => onAdd(count)}>Agregar al carrito</button>
         </div>
+    </div>
     )
 
 }

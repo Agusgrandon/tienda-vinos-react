@@ -1,35 +1,12 @@
-.container{
-    width: 98%;
-    margin: auto;
+.palabra{
+    font-family: 'Rock Salt', cursive;
+    padding: 10px;
+    margin: 10px;
 }
-
-@media screen and (min-width:768px){
-    .container{
-        width: 70%;
-    }
-}
-
-.detail{
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    width: 100%;
-    display:flex;
-    flex-wrap: wrap;
-}
-
-.detailImage{
-    width: 100%;
-}
-.content{
-    width: 100%;
-}
-
-@media screen and (min-width:768px){
-    .detailImage{
-        width: 50%;
-    }
-    .content{
-        width: 50%;
-        padding-left: 3rem;
-    }
+.tituloDetail{
+    color:#e5097f;
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
 }

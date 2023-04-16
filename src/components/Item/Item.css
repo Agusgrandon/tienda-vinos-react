@@ -17,6 +17,11 @@
 .precio{
     font-family: 'Rock Salt', cursive;
 }
-.boton{
-    text-align: center;
+.carrito{
+    font-family: 'Rock Salt', cursive;
+}
+h5{
+    color:#e5097f;
+    padding: 5px;
+    margin: 5px;
 }

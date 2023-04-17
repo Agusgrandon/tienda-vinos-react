@@ -8,7 +8,7 @@ export default function Footer() {
                 <a href="#" className="col-md-12 text-center">Instagram</a>
                 <a href="#" className="col-md-12 text-center">Facebook</a>
                 <a href="#" className="col-md-12 text-center">Preguntas Frecuentes</a>
-                <p className="palabra col-md-12 text-center">@copyright2022</p>
+                <p className="palabraFooter col-md-12 text-center">@copyright2022</p>
 
             </div>
         </div>

@@ -1,24 +1,26 @@
+//@ts-check
 import React from "react";
 import "./Item.css";
+import { Link } from 'react-router-dom';
 
 
-const Item = ({ price, title, image}) => {
+export const Item = ({ info }) => {
 
-    return(
-      
-        <div className="card" style={{ width: "17rem", height: "29rem" }}>
-        <img src={image} className="card-img-top" alt={title}/>
-        <div className="card-body">
-          <h5 className="producto text-center">{title}</h5>
-          <p className="precio text-center">Precio ${price}</p>
-          <div class="d-grid gap-2 col-6 mx-auto">
-          <button type="button" class="carrito btn btn-dark">ver detalle</button>
-          </div>
+  return (
+
+    <div className="card" style={{ width: "17rem", height: "29rem" }}>
+      <img src={info.image} className="card-img-top" alt={info.title} />
+      <div className="card-body">
+        <h5 className="producto text-center">{info.title}</h5>
+        <p className="precio text-center">Precio ${info.price}</p>
+        <div className="d-grid gap-2 col-6 mx-auto">
+          <Link className="nav-link" to={`/detalle/${info.id}`}><button type="button" className="carrito btn btn-dark">ver detalle</button></Link>
         </div>
       </div>
-    
-      
-    );
+    </div>
+
+
+  );
 
 }
 

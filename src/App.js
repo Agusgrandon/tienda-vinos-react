@@ -1,3 +1,4 @@
+
 import NavBar from './components/NavBar/NavBar';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 import Footer from './components/Footer/Footer';
@@ -13,8 +14,8 @@ function App() {
       <NavBar/>
       <Routes>
         <Route path='/' element={<ItemListContainer/>}/>
-        <Route path='/categoria/:categoriaId' element={<ItemListContainer/>}/>
-        <Route path='/cart' element={<Cart/>}/>
+        <Route path='/categoria/:cd' element={<ItemListContainer/>}/>
+        <Route path='/cart' element={<Cart />} />
         <Route path='/detalle/:detalleId' element={<ItemDetailContainer/>}/>
       </Routes>
       <Footer/>

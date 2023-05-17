@@ -1,7 +1,8 @@
 //@ts-check
-import React from "react";
+import React  from "react";
 import "./Item.css";
 import { Link } from 'react-router-dom';
+
 
 
 export const Item = ({ info }) => {

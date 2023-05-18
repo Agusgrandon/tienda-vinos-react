@@ -1,4 +1,4 @@
-//@ts-check
+
 import React, {useState} from "react";
 import { useCartContext } from "../../context/CartContext";
 import ItemCount from "../ItemCount/ItemCount";
@@ -23,6 +23,7 @@ export const ItemDetail = ({ data }) => {
           <div className="card-body">
             <h5 className="tituloDetail">{data.title}</h5>
             <p className="palabra">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quo error aliquid itaque ad, labore ratione voluptates? Inventore impedit perferendis quidem dolor, repudiandae alias nisi mollitia ducimus incidunt voluptate perspiciatis ex temporibus dolore vel corporis neque dolorem illum quod. Deleniti rerum nihil vitae aliquam beatae quia excepturi quam officia dolor?</p>
+            <p className="precio text-center">Precio ${data.price}</p>
             {
               irAlCarrito
               ? <Link to='/cart'>Terminar compra</Link>

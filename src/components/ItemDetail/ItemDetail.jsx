@@ -7,11 +7,11 @@ import { Link } from 'react-router-dom';
 
 export const ItemDetail = ({ data }) => {
  const [irAlCarrito, setIrAlCarrito] = useState(false);
- const addProduct = useCartContext();
+ const { addProduct }= useCartContext();
   
  const onAdd = (quantity) =>{
   setIrAlCarrito(true);
-  //addProduct(data, quantity);
+  addProduct(data, quantity);
 }
   return (
     <div className="card text-bg-dark mb-3">

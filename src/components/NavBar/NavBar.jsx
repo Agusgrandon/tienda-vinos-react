@@ -11,7 +11,7 @@ export default function NavBar() {
       <p className="vinos">VINOS</p>
       <br />
       <ul className="nav justify-content-center">
-      <li className="nav-item">
+        <li className="nav-item">
           <NavLink className="nav-link" to={'/'}>Home</NavLink>
         </li>
         <li className="nav-item">

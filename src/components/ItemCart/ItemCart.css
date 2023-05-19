@@ -1,10 +1,13 @@
-.cardItem{
-    display: flex;
-    border-bottom: 1px solid gray;
-    max-width: 500px;
-    margin: 1rem auto;
-}
-.cardItem img{
-    width: 200px;
+.cardItem {
+    width: 100px;
     margin-right: 1rem;
+}
+.divCart{
+    padding: 0px;
+    margin: 0px;
+}
+td{
+    color: black;
+    font-family: 'Assistant', sans-serif;
+    font-size: 25px;
 }

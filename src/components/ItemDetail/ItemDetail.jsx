@@ -1,18 +1,18 @@
 
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { useCartContext } from "../../context/CartContext";
 import ItemCount from "../ItemCount/ItemCount";
 import './ItemDetail.css';
 import { Link } from 'react-router-dom';
 
 export const ItemDetail = ({ data }) => {
- const [irAlCarrito, setIrAlCarrito] = useState(false);
- const { addProduct } = useCartContext();
-  
- const onAdd = (quantity) =>{
-  setIrAlCarrito(true);
-  addProduct(data, quantity);
-}
+  const [irAlCarrito, setIrAlCarrito] = useState(false);
+  const { addProduct } = useCartContext();
+
+  const onAdd = (quantity) => {
+    setIrAlCarrito(true);
+    addProduct(data, quantity);
+  }
   return (
     <div className="card text-bg-light mb-3">
       <div className="row g-0">
@@ -24,11 +24,12 @@ export const ItemDetail = ({ data }) => {
             <h5 className="detalleTitulo">{data.title}</h5>
             <p className="detallePrecio text-center">Precio ${data.price}</p>
             <p className="palabraDetalle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quo error aliquid itaque ad, labore ratione voluptates? Inventore impedit perferendis quidem dolor, repudiandae alias nisi mollitia ducimus incidunt voluptate perspiciatis ex temporibus dolore vel corporis neque dolorem illum quod. Deleniti rerum nihil vitae aliquam beatae quia excepturi quam officia dolor?</p>
-          
             {
               irAlCarrito
-              ? <Link className="linkCompra" to='/cart'><button type="button" className="btn btn-dark btn-lg">Terminar compra</button></Link>
-              : <ItemCount initial={1} stock={5} onAdd={onAdd} />
+                ? <Link className="linkCompra" to='/cart'>
+                  <button type="button" className="btn btn-dark btn-lg">Terminar compra</button>
+                </Link>
+                : <ItemCount initial={1} stock={5} onAdd={onAdd} />
             }
           </div>
         </div>

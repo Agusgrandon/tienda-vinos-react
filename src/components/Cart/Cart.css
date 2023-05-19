@@ -3,14 +3,29 @@
     font-family: 'Rock Salt', cursive;
     font-size: 30px;
     text-align: center;
-    padding: 20px;
-    margin: 20px;
+    padding: 10px;
+    margin: 10px;
 }
-.elegirProducto{
+.elegir{
     color: #f252a7;
     font-family: 'Assistant', sans-serif;
     text-align: center;
     font-size: 20px;
     padding: 10px;
-    margin: 560px;
+    margin: 100px;
+
 }
+.precioTotal{
+    color: black;
+    font-family: 'Assistant', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+.terminarCompra{
+    color: #f252a7;
+    font-family: 'Assistant', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+

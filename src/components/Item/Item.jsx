@@ -1,14 +1,11 @@
 //@ts-check
-import React  from "react";
+import React from "react";
 import "./Item.css";
 import { Link } from 'react-router-dom';
-
-
 
 export const Item = ({ info }) => {
 
   return (
-
     <div className="card" style={{ width: "17rem", height: "30rem" }}>
       <img src={info.image} className="card-img-top" alt={info.title} />
       <div className="card-body">
@@ -19,10 +16,7 @@ export const Item = ({ info }) => {
         </div>
       </div>
     </div>
-
-
   );
-
 }
 
 export default Item;

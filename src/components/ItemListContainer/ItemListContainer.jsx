@@ -1,8 +1,7 @@
-import React, {useState, useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import ItemList from "../ItemList/ItemList";
 import "./ItemListContainer.css";
-import {useParams} from 'react-router-dom';
-
+import { useParams } from 'react-router-dom';
 
 const vinos = [
     { id: "1", category: "rosado", title: "Vino Rosado", price: "1000", image: "https://labebidadetusfiestas.com.ar/45496-thickbox_default/dilema-pink-750cc.jpg" },
@@ -10,37 +9,28 @@ const vinos = [
     { id: "3", category: "tinto", title: "Vino Tinto", price: "1000", image: "https://arjosimarprod.vteximg.com.br/arquivos/ids/158641-1000-1000/Vino-Cabernet-Sauvignon-Norton-1895-750-cc-1-4899.jpg?v=637413265986470000" },
 ];
 
-
 export const ItemListContainer = () => {
     const [data, setData] = useState([]);
-
- //filtro
-    const {categoriaId} = useParams ();
-
- //promesa
-    useEffect(() =>{
-        const getData = new Promise(resolve =>{
-            setTimeout(() =>{
-              resolve(vinos);
+    //filtro
+    const { categoriaId } = useParams();
+    //promesa
+    useEffect(() => {
+        const getData = new Promise(resolve => {
+            setTimeout(() => {
+                resolve(vinos);
             }, 2000);
         });
-
         //filtro
-
-        if(categoriaId){
+        if (categoriaId) {
             getData.then(res => setData(res.filter(vino => vino.category === categoriaId)));
-        } else
-          {getData.then(res => setData(res));}
-
-    
+        } else { getData.then(res => setData(res)); }
     }, [categoriaId])
-   
 
-    return(
+    return (
         <>
             <h2 className="productos">Todos los productos</h2>
             <div className="col-xs-6 col-sm-10 col-md-12 col-lg-12 d-flex flex-wrap justify-content-around">
-            <ItemList data={data}/>
+                <ItemList data={data} />
             </div>
         </>
     )

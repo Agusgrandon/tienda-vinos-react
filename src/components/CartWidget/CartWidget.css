@@ -8,6 +8,7 @@ ion-icon{
     cursor: pointer;
 }
 .numeroCarrito{
+    font-family: 'Assistant', sans-serif;
     position: absolute;
     top: -1rem;
     right: -1.5rem;

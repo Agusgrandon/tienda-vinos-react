@@ -1,16 +1,29 @@
-.palabra{
-    font-family: 'Rock Salt', cursive;
-    padding: 10px;
-    margin: 10px;
-}
-.tituloDetail{
+.detalleTitulo{
     color:#e5097f;
     font-family: 'Rock Salt', cursive;
     text-align: center;
+    font-size: 30px;
     padding: 10px;
+    margin: 10px;
+}
+.detallePrecio {
+    color: black;
+    font-family: 'Assistant', sans-serif;
+    font-weight: bold;
+    font-size: 27px;
+}
+.palabraDetalle{
+    font-family: 'Assistant', sans-serif;
+    color: black;
+    font-weight: bold;
+    padding: 29px;
     margin: 10px;
 }
 .linkCompra{
     color: black;
+    font-weight: bold;
     text-align: center;
+    font-family: 'Assistant', sans-serif;
+    padding: 0px;
+    margin: 295px;
 }

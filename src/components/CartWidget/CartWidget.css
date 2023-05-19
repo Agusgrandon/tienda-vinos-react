@@ -3,3 +3,23 @@ ion-icon{
     text-align: center;
     color: #dcdcdc;
 }
+.cartWidget{
+    position: relative;
+    cursor: pointer;
+}
+.numeroCarrito{
+    position: absolute;
+    top: -1rem;
+    right: -1.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 1px solid #f252a7;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    background-color: #f252a7;
+}

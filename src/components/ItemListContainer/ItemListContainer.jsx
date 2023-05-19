@@ -28,7 +28,7 @@ export const ItemListContainer = () => {
         //filtro
 
         if(categoriaId){
-            getData.then(res => setData(res.filter(rosado => rosado.category === categoriaId)));
+            getData.then(res => setData(res.filter(vino => vino.category === categoriaId)));
         } else
           {getData.then(res => setData(res));}
 

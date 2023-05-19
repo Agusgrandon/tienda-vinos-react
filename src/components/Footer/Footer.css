@@ -1,13 +1,10 @@
-a{
+.footer{
     text-decoration: none;
     color: whitesmoke;
-    font-family: 'Rock Salt', cursive;
+    font-family: 'Assistant', sans-serif;
     padding: 3px;
     border: none ;
     margin: 3px;
-}
-a:hover{
-    color: #f252a7;
 }
 fondo{
     background-color: #272727;

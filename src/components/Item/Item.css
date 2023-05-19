@@ -15,13 +15,16 @@
 }
 
 .producto{
-    font-family: 'Rock Salt', cursive;
+    font-family: 'Assistant', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
 }
 .precio{
-    font-family: 'Rock Salt', cursive;
+    font-family: 'Assistant', sans-serif;
+    font-weight: bold;
 }
 .carrito{
-    font-family: 'Rock Salt', cursive;
+    font-family: 'Assistant', sans-serif;
 }
 h5{
     color:#e5097f;

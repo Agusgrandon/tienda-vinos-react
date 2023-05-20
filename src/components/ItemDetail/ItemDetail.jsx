@@ -26,8 +26,8 @@ export const ItemDetail = ({ data }) => {
             <p className="palabraDetalle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quo error aliquid itaque ad, labore ratione voluptates? Inventore impedit perferendis quidem dolor, repudiandae alias nisi mollitia ducimus incidunt voluptate perspiciatis ex temporibus dolore vel corporis neque dolorem illum quod. Deleniti rerum nihil vitae aliquam beatae quia excepturi quam officia dolor?</p>
             {
               irAlCarrito
-                ? <Link className="linkCompra" to='/cart'>
-                  <button type="button" className="btn btn-dark btn-lg">Terminar compra</button>
+                ? <Link to='/cart'>
+                  <div className="text-center"><button type="button" className="btn btn-dark btn-lg">Terminar compra</button></div>
                 </Link>
                 : <ItemCount initial={1} stock={5} onAdd={onAdd} />
             }

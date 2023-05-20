@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 export const Item = ({ info }) => {
 
   return (
-    <div className="card" style={{ width: "17rem", height: "30rem" }}>
+    <div className="card cardItem" style={{ width: "17rem", height: "30rem" }}>
       <img src={info.image} className="card-img-top" alt={info.title} />
       <div className="card-body">
         <h5 className="producto text-center">{info.title}</h5>

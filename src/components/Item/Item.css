@@ -1,14 +1,14 @@
-.card{
+.cardItem{
     margin: 20px;
     border-radius: 6px;
     cursor: default;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
 }
-.card:hover{
+.cardItem:hover{
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
     transform: translateY(-3%);
 }
-.card a:hover{
+.cardItem a:hover{
     background-color: black;
     color: black;
 }

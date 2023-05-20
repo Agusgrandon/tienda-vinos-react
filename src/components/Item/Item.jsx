@@ -12,7 +12,7 @@ export const Item = ({ info }) => {
         <h5 className="producto text-center">{info.title}</h5>
         <p className="precio text-center">Precio ${info.price}</p>
         <div className="d-grid gap-2 col-6 mx-auto">
-          <Link className="nav-link" to={`/detalle/${info.id}`}><div className="text-center"><button type="button" className="carrito btn btn-dark">Ver detalle</button></div></Link>
+          <Link className="nav-link" to={`/detalle/${info.id}`}><div className="text-center"><button type="button" className="carrito btn btn-outline-dark">Ver detalle</button></div></Link>
         </div>
       </div>
     </div>

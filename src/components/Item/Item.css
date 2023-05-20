@@ -6,7 +6,7 @@
 }
 .cardItem:hover{
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
-    transform: translateY(-3%);
+    
 }
 .cardItem a:hover{
     background-color: black;
@@ -16,6 +16,9 @@
     font-family: 'Assistant', sans-serif;
     font-size: 20px;
     font-weight: bold;
+    color: #8c8c8c;
+    padding: 5px;
+    margin: 5px;
 }
 .precio{
     font-family: 'Assistant', sans-serif;
@@ -23,9 +26,4 @@
 }
 .carrito{
     font-family: 'Assistant', sans-serif;
-}
-h5{
-    color:#e5097f;
-    padding: 5px;
-    margin: 5px;
 }

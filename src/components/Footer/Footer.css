@@ -1,15 +1,19 @@
 .footer{
     text-decoration: none;
+    background-color: black;
     color: whitesmoke;
     font-family: 'Assistant', sans-serif;
     padding: 3px;
     border: none ;
     margin: 3px;
 }
-fondo{
-    background-color: #272727;
+i{
+    color: white;
 }
-.palabraFooter{
-    color: whitesmoke;
+i:hover{
+    color: #f252a7;
+}
+.spam{
+    color: #3c3c3c;
 }
 

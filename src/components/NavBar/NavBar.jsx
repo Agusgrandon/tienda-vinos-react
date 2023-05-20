@@ -23,9 +23,6 @@ export default function NavBar() {
         <li className="nav-item">
           <NavLink className="nav-link" to={'/categoria/rosado'}>Rosados</NavLink>
         </li>
-        <li className="nav-item">
-          <NavLink className="nav-link" to={'/'}>Contacto</NavLink>
-        </li>
         <li>
           <NavLink className="nav-link" to={'/cart'}>
             <CartWidget />

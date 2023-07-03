@@ -1,17 +1,16 @@
 .titulo{
     color: #89004f;
-    text-align: left;
     font-family: 'Rock Salt', cursive;
     font-size: 50px;
 }
 .nav-item{
-    color: black;
+    color: #89004f;
     font-family: 'Rock Salt', cursive;
   }
 .nav-link{
-    color: black;
+    color: #89004f;
     font-family: 'Rock Salt', cursive;
   }
 .nav-link:hover{
-    color: #89004f;
+    color: black;
 }

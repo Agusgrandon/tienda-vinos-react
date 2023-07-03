@@ -23,13 +23,13 @@ export const ItemListContainer = () => {
 
     return (
         <>
-        <main>
-            <h2 className="productos">Todos los productos</h2>
-            <div className="col-xs-6 col-sm-10 col-md-12 col-lg-12 d-flex flex-wrap justify-content-around">
-                <ItemList data={data} />
-            </div>
+            <main>
+                <h2 className="productos">Todos los productos</h2>
+                <div className="col-xs-6 col-sm-10 col-md-12 col-lg-12 d-flex flex-wrap justify-content-around">
+                    <ItemList data={data} />
+                </div>
             </main>
         </>
     )
 }
-export default ItemListContainer
+export default ItemListContainer;

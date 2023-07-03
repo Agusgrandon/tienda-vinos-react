@@ -1,8 +1,9 @@
 .productos{
-    text-align: center;
-    font-family: 'Rock Salt', cursive;
-    font-size: 20px;
-    padding: 65px;
+    text-align: left;
+    color: #89004f;
+    font-family: 'Assistant', sans-serif;
+    font-size: 30px;
+    padding: 25px;
     border: none ;
-    margin: 65px;
+    margin: 25px;
 }

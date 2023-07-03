@@ -4,7 +4,6 @@ import './CartWidget.css';
 
 export const CartWidget = () => {
     const { totalProductos } = useCartContext();
-
     return (
         <>
             <div className="cartWidget">
@@ -14,5 +13,4 @@ export const CartWidget = () => {
         </>
     )
 }
-
 export default CartWidget;

@@ -1,7 +1,7 @@
 ion-icon{
     font-size: 40px;
     text-align: center;
-    color: #dcdcdc;
+    color: black;
 }
 .cartWidget{
     position: relative;
@@ -22,5 +22,5 @@ ion-icon{
     padding: 0rem;
     font-size: 1.5rem;
     font-weight: 700;
-    background-color: #8c8c8c;
+    background-color: #89004f;
 }

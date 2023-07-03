@@ -8,7 +8,7 @@ export const CartWidget = () => {
     return (
         <>
             <div className="cartWidget">
-                <ion-icon name="cart-outline"></ion-icon>
+                <p>Tu carrito</p>
                 <span className="numeroCarrito">{totalProductos() || ''}</span>
             </div>
         </>

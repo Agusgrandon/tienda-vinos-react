@@ -1,7 +1,6 @@
-ion-icon{
-    font-size: 40px;
-    text-align: center;
+.bi{
     color: black;
+    font-size: 20px;
 }
 .cartWidget{
     position: relative;

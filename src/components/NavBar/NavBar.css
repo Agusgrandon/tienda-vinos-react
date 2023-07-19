@@ -1,16 +1,22 @@
 .titulo{
     color: #89004f;
-    font-family: 'Rock Salt', cursive;
-    font-size: 50px;
-}
-.nav-item{
-    color: #89004f;
-    font-family: 'Rock Salt', cursive;
+    font-family: 'Assistant', sans-serif;
+    font-size: 60px;
+    text-align: left;
+    font-weight: bold;
   }
+.linkTitulo{
+  text-decoration: none;
+}
 .nav-link{
-    color: #89004f;
-    font-family: 'Rock Salt', cursive;
-  }
-.nav-link:hover{
-    color: black;
+  color: black;
+  font-family: 'Assistant', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  border-right: solid 1px black;
+  border-bottom: solid 1px black;
 }
+.nav-link:hover{
+  color: #89004f;
+}
+

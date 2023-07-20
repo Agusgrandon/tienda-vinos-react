@@ -8,10 +8,10 @@ export default function NavBar() {
   return <>
     <header>
       <nav>
-        <br />
+        
         <NavLink className="linkTitulo" to={'/'}><h1 className="titulo">Dilema Vinos</h1></NavLink>
         <div>
-          <ul className="nav justify-content-end align-content-start flex-wrap">
+          <ul className="d-flex justify-content-evenly">
             <li className="nav-item"><NavLink className="nav-link" to={'/'}>Home</NavLink></li>
             <li className="nav-item"><NavLink className="nav-link" to={'/categoria/tinto'}>Vino tinto</NavLink></li>
             <li className="nav-item"><NavLink className="nav-link" to={'/categoria/blanco'}>Vino blanco</NavLink></li>
@@ -21,5 +21,6 @@ export default function NavBar() {
         </div>
       </nav>
     </header >
+    <hr />
   </>
 }

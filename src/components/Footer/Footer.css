@@ -7,11 +7,11 @@
     border: none ;
     margin: 3px;
 }
-i{
+.bi{
     color: white;
 }
-i:hover{
-    color: #f252a7;
+.bi:hover{
+    color: #9a0526;
 }
 .spam{
     color: #3c3c3c;

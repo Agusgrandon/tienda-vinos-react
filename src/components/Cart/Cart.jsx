@@ -13,7 +13,7 @@ const Cart = () => {
                 <main>
                     <div className="text-center">
                         <p className="cartel">Tu carrito esta vacio</p>
-                        <Link to='/'><button type="button" class="elegir btn btn-outline-dark btn-lg">Elegir productos</button></Link>
+                        <Link to='/'><button type="button" class="elegir btn btn-dark">Elegir productos</button></Link>
                     </div>
                 </main>
             </>

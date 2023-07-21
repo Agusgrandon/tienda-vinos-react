@@ -3,16 +3,16 @@
     font-size: 20px;
 }
 .cartWidget{
-    position: relative;
+    position: absolute;
     cursor: pointer;
 }
 .numeroCarrito{
     font-family: 'Assistant', sans-serif;
     position: absolute;
     top: -1rem;
-    right: -1.5rem;
+    right: -2.5rem;
     width: 2.5rem;
-    height: 2.5rem;
+    height: 2rem;
     border: 1px solid #8c8c8c;
     border-radius: 50%;
     display: flex;

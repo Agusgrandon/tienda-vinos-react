@@ -1,19 +1,23 @@
 .footer{
-    text-decoration: none;
     background-color: black;
-    color: whitesmoke;
-    font-family: 'Assistant', sans-serif;
-    padding: 3px;
-    border: none ;
-    margin: 3px;
+    height: 200px;
 }
-.bi{
+.divFooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.palabraFooter{
+    font-family: 'Assistant', sans-serif;  
+    text-decoration: none;
+    list-style: none;
     color: white;
-}
-.bi:hover{
-    color: #9a0526;
 }
 .spam{
     color: #3c3c3c;
+}
+.palabraFooter:hover{
+    color: #9a0526;
 }
 

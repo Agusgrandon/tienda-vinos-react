@@ -8,7 +8,7 @@ export default function NavBar() {
   return <>
     <header>
       <nav>
-        
+        <div className="iconoNav"><i class="bi bi-whatsapp"></i></div>
         <NavLink className="linkTitulo" to={'/'}><h1 className="titulo">Dilema Vinos</h1></NavLink>
         <div>
           <ul className="d-flex justify-content-evenly">

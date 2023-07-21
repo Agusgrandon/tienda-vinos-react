@@ -26,4 +26,11 @@ li{
 .nav-link:hover{
   color: #9a0526;
 }
+.iconoNav{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  font-size: 50px;
+  color: green;
+}
 

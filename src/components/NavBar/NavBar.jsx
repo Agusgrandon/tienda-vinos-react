@@ -1,8 +1,8 @@
 import React from "react";
 import './NavBar.css';
 import CartWidget from "../CartWidget/CartWidget";
+import foto1 from "../img/foto1.jfif";
 import { NavLink } from 'react-router-dom';
-
 
 export default function NavBar() {
   return <>
@@ -10,7 +10,8 @@ export default function NavBar() {
       <nav>
         <div className="iconoNav"><i class="bi bi-whatsapp"></i></div>
         <NavLink className="linkTitulo" to={'/'}><h1 className="titulo">Dilema Vinos</h1></NavLink>
-        <div>
+        <img className="fotoNav" src={foto1} />
+        <div className="divNav">
           <ul className="d-flex justify-content-evenly">
             <li className="nav-item"><NavLink className="nav-link" to={'/'}>Home</NavLink></li>
             <li className="nav-item"><NavLink className="nav-link" to={'/categoria/tinto'}>Vino tinto</NavLink></li>

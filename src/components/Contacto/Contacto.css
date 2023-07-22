@@ -1,0 +1,11 @@
+form{
+    text-align: center;
+    font-size: 25px;
+    padding: 40px;
+    border: solid 3px black;
+    margin: 59px 348px 50px 348px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to right, #ffe4ea, white, white, #ffe4ea);
+    }
